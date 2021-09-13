@@ -14,3 +14,6 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 8. Organizando o código em pacotes
 9. Comentários
 10. Tipos primitivos pt 01 - convenções de variáveis
+11. Tipos primitivos pt 02 - declaração e tamanho em memória
+12. Tipos primitivos pt 03 - casting
+13. Tipos primitivos pt 04 - Strings

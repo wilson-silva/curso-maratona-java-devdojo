@@ -17,3 +17,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 11. Tipos primitivos pt 02 - declaração e tamanho em memória
 12. Tipos primitivos pt 03 - casting
 13. Tipos primitivos pt 04 - Strings
+14. Tipos primitivos pt 05 - Exercício
+15. Operadores pt 01 - Aritiméticos
+16. Operadores pt 02 - Relacionais
+17. Operadores pt 03 - Lógicos AND

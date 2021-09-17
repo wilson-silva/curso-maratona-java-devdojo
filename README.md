@@ -25,3 +25,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 19. Operadores pt 05 — Atribuição
 20. Estruturas Condicionais pt 01 — IF
 21. Estruturas Condicionais pt 02 — ELSE IF
+22. truturas Condicionais pt 03 — Operador ternário
+23. Estruturas Condicionais pt 04 — Tabela Verdade e exercício
+24. Estruturas Condicionais pt 05 — Resolução do exercícios.
+25. Estruturas Condicionais pt 06 - Switch

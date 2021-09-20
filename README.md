@@ -29,3 +29,12 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 23. Estruturas Condicionais pt 04 — Tabela Verdade e exercício
 24. Estruturas Condicionais pt 05 — Resolução do exercícios.
 25. Estruturas Condicionais pt 06 - Switch
+26. Estruturas Condicionais pt 07 - Switch exercício
+27. Estruturas de Repetição pt 01 — Laços de repetição while, do while, for
+28. Estruturas de Repetição pt 02 — Exercício for
+29. Estruturas de Repetição pt 03 — Break
+30. Estruturas de Repetição pt 04 - Exercício Break
+31. Estruturas de Repetição pt 05 - Continue
+32. Arrays pt 01
+33. Arrays pt 02
+34. Arrays pt 03

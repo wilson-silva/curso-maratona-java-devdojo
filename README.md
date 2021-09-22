@@ -44,4 +44,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 38. Arrays Multidimensionais pt 03 - Inicialização
 39. Orientação Objetos pt 01 - Introdução classes pt 01
 40. Orientação Objetos - Introdução classes pt 02
-
+41. Orientação Objetos - Coesão
+42. Orientação Objetos - Exercício Classes
+43. Orientação Objetos - Referência de objetos
+44. Orientação Objetos - Métodos pt 01

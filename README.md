@@ -53,3 +53,6 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 47. Orientação Objetos - Métodos pt 04 - Retorno pt 02
 48. Orientação Objetos - Métodos pt 05 - Parâmetros tipo primitivo
 49. Orientação Objetos - Métodos pt 06 - Parâmetros tipo referência
+50. Orientação Objetos - Métodos pt 07 - Parâmetros tipo referência pt 02
+51. Orientação Objetos - Métodos pt 08 - Referência this
+52. Orientação Objetos - Métodos pt 09 - Varargs

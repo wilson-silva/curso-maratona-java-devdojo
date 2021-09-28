@@ -56,4 +56,23 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 50. Orientação Objetos - Métodos pt 07 - Parâmetros tipo referência pt 02
 51. Orientação Objetos - Métodos pt 08 - Referência this
 52. Orientação Objetos - Métodos pt 09 - Varargs
-53. 
+53. Orientação Objetos - Métodos pt 10 - Exercise
+54. Orientação Objetos - Modificador de acesso private, get e set pt 01
+55. Orientação Objetos - Modificador de acesso private, get e set pt 02
+56. Orientação Objetos - Modificador de acesso private, get e set pt 03
+57. Orientação Objetos - Sobrecarga de métodos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

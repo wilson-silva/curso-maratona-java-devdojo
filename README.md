@@ -64,6 +64,11 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 58. Orientação Objetos - Construtores pt 01
 59. Orientação Objetos - Construtores pt 02 - Sobrecarga
 60. Orientação Objetos - Blocos de inicialização
+61. Orientação Objetos - Modificador static
+62. Orientação Objetos - Métodos estáticos
+63. Orientação Objetos - Bloco de inicialização estático
+
+
 
 
 

@@ -20,7 +20,8 @@ public class Anime {
     static{
         System.out.println("Dentro do bloco de inicialização estático 3");
     }
-{
+
+    {
         System.out.println("Dentro do bloco de inicialização não estático");
     }
 

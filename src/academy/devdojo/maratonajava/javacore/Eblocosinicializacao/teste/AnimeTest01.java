@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Eblocosinicializacao.test;
+package academy.devdojo.maratonajava.javacore.Eblocosinicializacao.teste;
 
 import academy.devdojo.maratonajava.javacore.Eblocosinicializacao.dominio.Anime;
 

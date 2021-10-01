@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Dconstrutores.test;
+package academy.devdojo.maratonajava.javacore.Dconstrutores.teste;
 
 
 import academy.devdojo.maratonajava.javacore.Dconstrutores.dominio.Anime;

@@ -74,7 +74,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 68. Orientação Objetos - Leitura de dados pelo console
 69. Orientação Objetos - Exercício leitura de dados do teclado
 70. Orientação Objetos - Associação pt 05 - Exercício Associação
-
+71. Orientação Objetos - Herança pt 01
 
 
 

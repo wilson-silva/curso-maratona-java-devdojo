@@ -28,7 +28,7 @@ public class AssociacaoTeste {
         String nomeAluno1 = sc.nextLine();
         System.out.print("Informe a idade do aluno: ");
         int idade1 = sc.nextInt();
-        Aluno aluno1 = new Aluno(nomeAluno, idade);
+        Aluno aluno1 = new Aluno(nomeAluno1, idade1);
         System.out.println();
         sc.nextLine();
 

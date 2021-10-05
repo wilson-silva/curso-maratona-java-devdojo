@@ -35,7 +35,8 @@ public class Professor {
             System.out.println();
             System.out.println("** Alunos **");
             for (Aluno aluno : seminario.getAlunos()) {
-                System.out.print("Aluno: " + aluno.getNome() + "\n Idade: " + aluno.getIdade());
+                System.out.print("Aluno: " + aluno.getNome() + ", Idade: " + aluno.getIdade());
+                System.out.println();
             }
         }
     }

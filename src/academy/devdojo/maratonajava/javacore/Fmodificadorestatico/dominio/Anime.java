@@ -4,7 +4,12 @@ public class Anime {
     private String nome;
     private static int[] episodios;
 
-    //Bloco de inicialização
+    // 0 - Bloco de inicialização estático é executado quando a JVM carregar a classe
+    // 1 - Alocado espaço em memória para o objeto
+    // 2 - Cada atributo de classe é criado e inicializado com valores default ou valores inseridos
+    // 3 - Bloco de inicialização é executado
+    // 4 - Construtor é executado
+
     static{
         System.out.println("Dentro do bloco de inicialização estático 1");
         episodios = new int[20];

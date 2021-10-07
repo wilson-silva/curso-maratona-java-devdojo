@@ -79,6 +79,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 73. Orientação Objetos - Herança pt 03 - protected
 74. Orientação Objetos - Herança pt 04 - Construtores
 75. Orientação Objetos - Herança pt 05 - Sequência de inicialização
+76. Orientação Objetos - Sobrescrita do método toString
 
 
 

@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Isobrescrita.dominio;
 
-public class Anime extends  Object{
+public class Anime{
     private String nome;
 
     public Anime(String nome) {

@@ -80,7 +80,16 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 74. Orientação Objetos - Herança pt 04 - Construtores
 75. Orientação Objetos - Herança pt 05 - Sequência de inicialização
 76. Orientação Objetos - Sobrescrita do método toString
-77. 
+77. Orientação Objetos - Modificador final pt 01 - Tipo primitivo
+78. Orientação Objetos - Modificador final pt 02 - Tipo referência
+79. Orientação Objetos - Modificador final pt 03 - Classes e métodos
+80. Orientação Objetos - Enumeração pt 01 - Introdução
+81. Orientação Objetos - Enumeração pt 02 - Construtores e atributos
+82. Orientação Objetos - Enumeração pt 03 - Sobrescrita de métodos
+83. Orientação Objetos - Enumeração pt 04 - Busca por atributos
+84. Orientação Objetos - Classes abstratas pt 01
+85. Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
+
 
 
 

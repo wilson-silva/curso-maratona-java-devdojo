@@ -9,5 +9,7 @@ public class FuncionarioTeste01 {
         Desenvolvedor desenvolvedor = new Desenvolvedor("Zoro", 2000);
         System.out.println(gerente);
         System.out.println(desenvolvedor);
+        desenvolvedor.imprime();
+        gerente.imprime();
     }
 }

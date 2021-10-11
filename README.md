@@ -89,6 +89,10 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 83. Orientação Objetos - Enumeração pt 04 - Busca por atributos
 84. Orientação Objetos - Classes abstratas pt 01
 85. Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
+86. Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
+87. Orientação Objetos - Interfaces pt 01 - Introdução
+88. Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+89. Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
 
 
 

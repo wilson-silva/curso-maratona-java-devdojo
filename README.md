@@ -100,7 +100,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 94. Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
 95. Exceções pt 01 - Errors
 96. Exceções pt 02 - RuntimeException
-
+97. Exceções pt 03 - Exception
+98. Exceções pt 04 - Lançando exceção unchecked
 
 
 

@@ -102,6 +102,9 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 96. Exceções pt 02 - RuntimeException
 97. Exceções pt 03 - Exception
 98. Exceções pt 04 - Lançando exceção unchecked
+99. Exceções pt 05 - Lançando exceção checked
+100. Exceções pt 06 - Bloco Finally
+101. Exceções pt 07 - Capturando múltiplas exceções
 
 
 

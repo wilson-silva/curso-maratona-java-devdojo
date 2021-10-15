@@ -105,6 +105,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 99. Exceções pt 05 - Lançando exceção checked
 100. Exceções pt 06 - Bloco Finally
 101. Exceções pt 07 - Capturando múltiplas exceções
+102. Exceções pt 08 - Multi catch em linha
 
 
 

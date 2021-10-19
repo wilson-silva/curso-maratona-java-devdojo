@@ -13,15 +13,26 @@ public class WrapperTest01 {
 
         Byte byteW = 1;
         Short shortW = 1;
-        Integer intW = 1;
+        Integer intW = 1; //autobox
         Long longW = 10L;
         Double doubleW = 10D;
         Float floaW = 10F;
         Character charW = 'W';
         Boolean booleanW = false;
 
+        int i = intW; //unboxing
+        Integer num = Integer.parseInt("1");
+        System.out.println(num);
 
-
-
+        boolean verdadeiro = Boolean.parseBoolean("TruE");
+        System.out.println(verdadeiro);
+        System.out.println();
+        System.out.println(Character.isDigit('A'));
+        System.out.println(Character.isDigit('9'));
+        System.out.println(Character.isLetter('B'));
+        System.out.println(Character.isUpperCase('C'));
+        System.out.println(Character.isLowerCase('C'));
+        System.out.println(Character.toUpperCase('d'));
+        System.out.println(Character.toLowerCase('D'));
     }
 }

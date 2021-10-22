@@ -117,8 +117,17 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 111. Classes Utilitárias - Strings pt 04 - StringBuilder
 112. Classes Utilitárias - Date
 113. Classes Utilitárias - Calendar
-
-
+114. Classes Utilitárias - DateFormat
+115. Classes Utilitárias - Internacionalização Datas com Locale
+116. Classes Utilitárias - Internacionalização Números com Locale
+117. Classes Utilitárias - Internacionalização de moeda com Locale
+118. Classes Utilitárias - SimpleDateFormat
+119. Classes Utilitárias - LocalDate
+120. Classes Utilitárias - LocalTime
+121. Classes Utilitárias - LocalDateTime
+122. Classes Utilitárias - Instant
+123. Classes Utilitárias - Duration 
+124. Classes Utilitárias - Period
 
 
 

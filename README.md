@@ -128,6 +128,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 122. Classes Utilitárias - Instant
 123. Classes Utilitárias - Duration 
 124. Classes Utilitárias - Period
+125. Classes Utilitárias - ChronoUnit
+126. Classes Utilitárias - TemporalAdjusters.
 
 
 

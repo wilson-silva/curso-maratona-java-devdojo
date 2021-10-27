@@ -14,6 +14,8 @@ public class LocalDateTest01 {
         System.out.println(Calendar.getInstance());
         LocalDate date = LocalDate.of(2022, Month.JANUARY, 23);
         LocalDate agora = LocalDate.now();
+        System.out.println();
+
 
         System.out.println(date.getYear());
         System.out.println(date.getMonth());

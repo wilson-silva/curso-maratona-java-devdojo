@@ -134,6 +134,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 128. Classes Utilitárias - ZonedDateTime, ZoneId, OffsetDateTime
 129. Classes Utilitárias - DateTimeFormatter
 130. Classes Utilitárias - ResourceBundle
+131. Classes Utilitárias - Regex pt 01 - Pattern e Matcher
 
 
 

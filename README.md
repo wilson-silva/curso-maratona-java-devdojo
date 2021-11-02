@@ -137,8 +137,9 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 131. Classes Utilitárias - Regex pt 01 - Pattern e Matcher
 132. Classes Utilitárias - Regex pt 02 - Pattern e Matcher - Meta caracteres
 133. Classes Utilitárias - Regex pt 03 - Pattern e Matcher - Range
-
-
+134. Classes Utilitárias - Regex pt 04 - Pattern e Matcher - Quantificadores pt 01
+135. Classes Utilitárias - Regex pt 05 - Pattern e Matcher - Quantificadores pt 02
+136. Classes Utilitárias - Regex pt 06 - Pattern e Matcher - Anchor
 
 
 

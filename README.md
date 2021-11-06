@@ -143,7 +143,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 137. Classes Utilitárias - Scanner - Tokens e Delimitadores
 138. Classes Utilitárias - IO pt 01 - File
 139. Classes Utilitárias - IO pt 02 - FileWriter
-
+140. Classes Utilitárias - IO pt 03 - FileReader
 
 
 

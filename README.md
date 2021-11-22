@@ -147,6 +147,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 141. Classes Utilitárias - IO pt 04 - BufferedWriter
 142. Classes Utilitárias - IO pt 05 - BufferedReader 
 143. Classes Utilitárias - IO pt 06 - File para diretórios
+144. Classes Utilitárias - NIO pt 01 - Path, Paths, Files pt 01
+
 
 
 

@@ -11,7 +11,7 @@ public class StringBuilderTest01 {
         StringBuilder sb = new StringBuilder("Willian Suane");
         sb.append(" DevDojo").append(" Academy");
         sb.reverse();
-        sb.reverse();
+        System.out.println(sb);
         sb.delete(0, 3);
         System.out.println(sb);
     }

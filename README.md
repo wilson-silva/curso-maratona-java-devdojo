@@ -149,7 +149,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 143. Classes Utilitárias - IO pt 06 - File para diretórios
 144. Classes Utilitárias - NIO pt 01 - Path, Paths, Files pt 01
 145. Classes Utilitárias - NIO pt 02 - Path, Paths, Files pt 02
-146 - Classes Utilitárias - NIO pt 03 - Normalização
+146. Classes Utilitárias - NIO pt 03 - Normalização
 
 
 

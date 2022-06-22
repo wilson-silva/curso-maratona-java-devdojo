@@ -155,7 +155,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 149. Classes Utilitárias - NIO pt 06 - BasicFileAttributes pt 01
 150. Classes Utilitárias - NIO pt 07 - BasicFileAttributes pt 02 
 151. Classes Utilitárias - NIO pt 08 - DosFileAttribute
-
+152. Classes Utilitárias - NIO pt 09 - PosixFileAttributes
 
 
 

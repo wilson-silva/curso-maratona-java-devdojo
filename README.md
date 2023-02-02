@@ -165,6 +165,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 159. Classes Utilitárias - Serialization pt 01
 160. Classes Utilitárias - Serialization pt 02
 161. Coleções pt 01 - equals pt 01
+162. Coleções pt 02 - equals pt 02
 
 
 

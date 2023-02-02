@@ -168,6 +168,10 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 162. Coleções pt 02 - equals pt 02
 163. Coleções pt 03 - hashCode pt 01
 164. Coleções pt 04 - hashCode pt 02
+165. Coleções pt 05 - Complexidade Big-O
+166. Coleções pt 06 - List pt 01
+167. Coleções pt 07 - List pt 02
+168. Coleções pt 08 - List pt 03
 
 
 

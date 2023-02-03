@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Ycolecoes.teste;
 import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Smartphone;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SmartphoneListTest01 {
@@ -21,7 +22,7 @@ public class SmartphoneListTest01 {
             System.out.println(smartphone);
         }
 
-        Smartphone s4 = new Smartphone("222221", "Pixel");
+        Smartphone s4 = new Smartphone("22222", "Pixel");
 
         System.out.println(smartphones.contains(s4));
         int indexSmartphone4 = smartphones.indexOf(s4);

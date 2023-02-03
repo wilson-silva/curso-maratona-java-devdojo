@@ -27,3 +27,7 @@ z
 Jsrc/academy/devdojo/maratonajava/javacore/Xserializacao/dominio/Aluno.java,a\9\a94e569373749573f9612d6d815a81eac3844cc3
 …
 Usrc/academy/devdojo/maratonajava/javacore/Xserializacao/teste/SerializacaoTest01.java,9\3\9315a72111bb8cb80253903dc19cbb5f34f69e32
+y
+Isrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/ListTest01.java,5\e\5e1c50f20c84aff9ea6eee0e056a5cdebee487ac
+{
+Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/EqualsTest01.java,f\a\fa61eefb2029154c54b421eed159b6bdf8b006f4

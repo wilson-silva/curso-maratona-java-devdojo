@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.javacore.Ycolecoes.dominio;
 
 import java.util.Objects;
 
-public class Manga {
+public class Manga implements Comparable<Manga>{
     private Long id;
     private String nome;
     private double preco;
@@ -64,4 +64,33 @@ public class Manga {
     public void setPreco(double preco) {
         this.preco = preco;
     }
+    //--------------------------------------------------------------------------
+    @Override
+    public int compareTo(Manga o) {
+
+        //Usado quando o atributo a ser comparado não for um objeto que implementa comparable
+        /*
+        if(this.id < o.getId()){
+            return -1;
+        } else if (this.id.equals(o.getId())) {
+            return  0;
+        }
+        return 1;
+         */
+        //--------------------------------------------------------------------------
+
+        // Usado direto pois as classes Wrapper implementam Comparable
+        //return this.id.compareTo(o.getId());
+        //--------------------------------------------------------------------------
+
+        // Usado direto porém convertendo o double(primitivo) para Double(Wrapper)
+        //return Double.valueOf(preco).compareTo(o.getPreco());
+        //return Double.compare(preco, o.getPreco());
+
+        //--------------------------------------------------------------------------
+
+        // Ordenando pelo nome
+        return this.nome.compareTo(o.getNome());
+    }
+
 }

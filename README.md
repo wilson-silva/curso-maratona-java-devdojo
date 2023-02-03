@@ -173,6 +173,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 167. Coleções pt 07 - List pt 02
 168. Coleções pt 08 - List pt 03
 169. Coleções pt 09 - Sorting lists pt 01
+170. Coleções pt 10 - Sorting lists pt 02 - Comparable
 
 
 

@@ -29,7 +29,11 @@ Jsrc/academy/devdojo/maratonajava/javacore/Xserializacao/dominio/Aluno.java,a\9
 Usrc/academy/devdojo/maratonajava/javacore/Xserializacao/teste/SerializacaoTest01.java,9\3\9315a72111bb8cb80253903dc19cbb5f34f69e32
 y
 Isrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/ListTest01.java,5\e\5e1c50f20c84aff9ea6eee0e056a5cdebee487ac
-É
-Ssrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SmartphoneListTest01.java,0\f\0f7839e7c9a4e43ebe564bc13af636ea50232e8d
+Å
+Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest01.java,b\6\b6a9ff2e6e1ebe0751525b0450ffdcb73766b47a
+Å
+Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest02.java,c\0\c004d1585e7b6c4c02f43b865a651010b7fed9a9
+{
+Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/EqualsTest01.java,f\a\fa61eefb2029154c54b421eed159b6bdf8b006f4
 }
-Msrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/ListSortTest01.java,e\1\e1d519b08bd78be2db4588199090a999c686b71e
+Msrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/IteratorTest01.java,7\6\766f9ac39ff3d5a5f11c63ec8e3146eb21c672a5

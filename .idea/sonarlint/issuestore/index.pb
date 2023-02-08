@@ -37,3 +37,21 @@ Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest02.ja
 Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/EqualsTest01.java,f\a\fa61eefb2029154c54b421eed159b6bdf8b006f4
 }
 Msrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/IteratorTest01.java,7\6\766f9ac39ff3d5a5f11c63ec8e3146eb21c672a5
+à
+Xsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/ListaArrayConversaoTest01.java,c\c\ccf7e4ebd115fbf079dbfe5f85d88f7310214093
+}
+Msrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/ListSortTest01.java,e\1\e1d519b08bd78be2db4588199090a999c686b71e
+É
+Ssrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SmartphoneListTest01.java,0\f\0f7839e7c9a4e43ebe564bc13af636ea50232e8d
+{
+Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Smartphone.java,f\8\f8e3172ef32df85b89baf58bb31d1611d1bc42c1
+~
+Nsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MangaSortTest01.java,d\f\dfe444c67a791676c07530704211bad1f507c907
+x
+Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SetTest01.java,d\9\d93958f624b0a721e2d4f800f9d84df6a91fece6
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+v
+Fsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Manga.java,3\a\3ababbcd52e5bfab613c346f4b1a1d5ca0057881
+Å
+Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/NavigableSetTest01.java,5\5\55473b3b58fe4d0c2f3d6cbba19846453e0c043e

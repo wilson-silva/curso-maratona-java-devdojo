@@ -49,7 +49,6 @@ public class Manga implements Comparable<Manga> {
         return Objects.hash(id, nome);
     }
 
-
     //--------------------------------------------------------------------------
 
 

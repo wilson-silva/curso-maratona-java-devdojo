@@ -25,6 +25,7 @@ public class MangaSortTest01 {
         mangas.add(new Manga(2L, "Dragon Ball Z", 2.99));
 
         mangas.forEach(System.out::println);
+
         System.out.println("-----------------------");
         Collections.sort(mangas);
         mangas.forEach(System.out::println);

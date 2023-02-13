@@ -31,8 +31,6 @@ y
 Isrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/ListTest01.java,5\e\5e1c50f20c84aff9ea6eee0e056a5cdebee487ac
 Å
 Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest01.java,b\6\b6a9ff2e6e1ebe0751525b0450ffdcb73766b47a
-Å
-Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest02.java,c\0\c004d1585e7b6c4c02f43b865a651010b7fed9a9
 {
 Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/EqualsTest01.java,f\a\fa61eefb2029154c54b421eed159b6bdf8b006f4
 }

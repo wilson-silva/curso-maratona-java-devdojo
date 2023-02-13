@@ -49,9 +49,3 @@ Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Smartphone.java,f\
 Nsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MangaSortTest01.java,d\f\dfe444c67a791676c07530704211bad1f507c907
 x
 Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SetTest01.java,d\9\d93958f624b0a721e2d4f800f9d84df6a91fece6
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-v
-Fsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Manga.java,3\a\3ababbcd52e5bfab613c346f4b1a1d5ca0057881
-Å
-Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/NavigableSetTest01.java,5\5\55473b3b58fe4d0c2f3d6cbba19846453e0c043e

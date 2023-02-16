@@ -8,11 +8,16 @@ public class MapTest01 {
     public static void main(String[] args) {
         Map<String, String> map = new LinkedHashMap<>();
         //Map<String, String> map = new HashMap<>();
-        map.put("teklado", "teclado");
+        map.put("teklado",  "teclado");
         map.put("mouze", "mouse");
         map.put("vc", "você");
         map.putIfAbsent("vc2", "você2");
         System.out.println(map);
+        System.out.println("-------------------");
+
+        for(String key : map.keySet()){
+            System.out.println(key);
+        }
         System.out.println("-------------------");
 
         for(String key : map.keySet()){

@@ -48,6 +48,8 @@ Nsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MangaSortTest01.java
 x
 Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SetTest01.java,d\9\d93958f624b0a721e2d4f800f9d84df6a91fece6
 Å
-Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/NavigableSetTest01.java,5\5\55473b3b58fe4d0c2f3d6cbba19846453e0c043e
-v
-Fsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Manga.java,3\a\3ababbcd52e5bfab613c346f4b1a1d5ca0057881
+Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest02.java,c\0\c004d1585e7b6c4c02f43b865a651010b7fed9a9
+x
+Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MapTest01.java,f\5\f590f94bdd0241724b3acc74fa11cc3d9cb3ecbf
+x
+Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MapTest02.java,e\0\e08f7d375ec235f30ddec541becbf18a0b7bf8b7

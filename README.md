@@ -185,6 +185,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 179. Coleções pt 19 - Map, HashMap, LinkedHashMap pt 02
 180. Coleções pt 20 - Map, HashMap, LinkedHashMap pt 03
 181. Coleções pt 21 - NavigableMap, TreeMap
+182. Coleções pt 22 - Queue, PriorityQueue
 
 
 

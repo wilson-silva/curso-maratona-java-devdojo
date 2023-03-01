@@ -45,17 +45,11 @@ Ssrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SmartphoneListTest01.
 Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Smartphone.java,f\8\f8e3172ef32df85b89baf58bb31d1611d1bc42c1
 ~
 Nsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MangaSortTest01.java,d\f\dfe444c67a791676c07530704211bad1f507c907
-x
-Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/SetTest01.java,d\9\d93958f624b0a721e2d4f800f9d84df6a91fece6
 Å
 Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest02.java,c\0\c004d1585e7b6c4c02f43b865a651010b7fed9a9
-x
-Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MapTest02.java,e\0\e08f7d375ec235f30ddec541becbf18a0b7bf8b7
-x
-Hsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MapTest03.java,4\4\4468eb7af7af45546da2fbe28f2f2d1911866a82
-{
-Ksrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Consumidor.java,a\9\a9ceb25e6bbba46d4565bbc5fc771381726b0c1b
 v
 Fsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Manga.java,3\a\3ababbcd52e5bfab613c346f4b1a1d5ca0057881
-Å
-Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/NavigableMapTest01.java,d\c\dc98182625b8bd5846fa6f23deecaa905f26d26c
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+|
+Lsrc/academy/devdojo/maratonajava/javacore/Zgenerics/teste/GenericTest01.java,5\5\55c1e58d2fa6f3ee6fb3437c86677daad7ca8f6b

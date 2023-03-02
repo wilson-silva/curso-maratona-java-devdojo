@@ -190,6 +190,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 184. Generics pt 02 - Wildcard pt 01
 185. Generics pt 03 - Wildcard pt 02
 186. Generics pt 04 - Classes Genéricas pt 01
+187. Generics pt 05 - Classes Genéricas pt 02
 
 
 

@@ -188,6 +188,9 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 182. Coleções pt 22 - Queue, PriorityQueue
 183. Generics pt 01 - Introdução
 184. Generics pt 02 - Wildcard pt 01
+185. Generics pt 03 - Wildcard pt 02
+186. Generics pt 04 - Classes Genéricas pt 01
+
 
 
 

@@ -49,7 +49,3 @@ Nsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/MangaSortTest01.java
 Qsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/teste/BinarySearchTest02.java,c\0\c004d1585e7b6c4c02f43b865a651010b7fed9a9
 v
 Fsrc/academy/devdojo/maratonajava/javacore/Ycolecoes/dominio/Manga.java,3\a\3ababbcd52e5bfab613c346f4b1a1d5ca0057881
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-|
-Lsrc/academy/devdojo/maratonajava/javacore/Zgenerics/teste/GenericTest01.java,5\5\55c1e58d2fa6f3ee6fb3437c86677daad7ca8f6b

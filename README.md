@@ -193,6 +193,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 187. Generics pt 05 - Classes Genéricas pt 02
 188. Generics pt 06 - Métodos Genéricos
 189. Classes Internas pt 01 - Introdução
+190. Classes Internas pt 02 - Classes Locais
 
 
 

@@ -199,6 +199,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 193. Parametrizando comportamentos pt 01 
 194. Parametrizando comportamentos pt 02
 195. Lambdas pt 01 - Predicate
+196. Lambdas pt 02 - Consumer
 
 
 

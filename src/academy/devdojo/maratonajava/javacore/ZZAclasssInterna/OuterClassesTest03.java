@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.ZZA;
+package academy.devdojo.maratonajava.javacore.ZZAclasssInterna;
 
 public class OuterClassesTest03 {
     private String name = "Willian";

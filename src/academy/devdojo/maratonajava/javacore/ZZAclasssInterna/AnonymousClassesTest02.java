@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.ZZA;
+package academy.devdojo.maratonajava.javacore.ZZAclasssInterna;
 
 
 import academy.devdojo.maratonajava.javacore.Zgenerics.dominio.Barco;

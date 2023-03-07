@@ -85,9 +85,3 @@ y
 Isrc/academy/devdojo/maratonajava/javacore/ZZA/AnonymousClassesTest01.java,5\c\5c21d7d1957ab12ad89477f3b0993496f8f8c89b
 u
 Esrc/academy/devdojo/maratonajava/javacore/ZZA/OuterClassesTest01.java,9\8\980b87b2cec73eee1873423a20b46a9faf4d5fd3
-‡
-Wsrc/academy/devdojo/maratonajava/javacore/ZZBcomportamento/interfaces/CarPredicate.java,7\2\725e0c4c7036ae78b5e3685f54899a2a00b6992c
-•
-esrc/academy/devdojo/maratonajava/javacore/ZZBcomportamento/teste/ComportamentoPorParametrotest02.java,d\e\de3e71c4ec3240f6ed6766f20f4ca227db667e9c
-•
-esrc/academy/devdojo/maratonajava/javacore/ZZBcomportamento/teste/ComportamentoPorParametrotest03.java,7\3\737b2c0bf808bc5c9551a259edc680b4a844b6f7

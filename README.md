@@ -202,6 +202,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 196. Lambdas pt 02 - Consumer
 197. Lambdas pt 02 - Function
 198. Method Reference pt 01 - Referência a métodos estáticos
+199. Method Reference pt 02 - Referência a métodos não estáticos
 
 
 

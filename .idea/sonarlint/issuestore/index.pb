@@ -75,13 +75,3 @@ Ssrc/academy/devdojo/maratonajava/javacore/Zgenerics/teste/ClasseGenericaTest02.
 Lsrc/academy/devdojo/maratonajava/javacore/Zgenerics/teste/GenericTest01.java,5\5\55c1e58d2fa6f3ee6fb3437c86677daad7ca8f6b
 v
 Fsrc/academy/devdojo/maratonajava/javacore/Zgenerics/dominio/Barco.java,9\a\9a4d3531954a0370e07247ccba2c66e9fd7805a3
-y
-Isrc/academy/devdojo/maratonajava/javacore/ZZA/AnonymousClassesTest02.java,c\8\c885a709339fa0ce90389e19b520cef44e23ac2d
-u
-Esrc/academy/devdojo/maratonajava/javacore/ZZA/OuterClassesTest02.java,1\c\1cbf78ec96c6e4188a1807ec8bddd9c438f9b00b
-u
-Esrc/academy/devdojo/maratonajava/javacore/ZZA/OuterClassesTest03.java,e\f\ef77f4f64b500df9f74709457f5f6da4a14f2175
-y
-Isrc/academy/devdojo/maratonajava/javacore/ZZA/AnonymousClassesTest01.java,5\c\5c21d7d1957ab12ad89477f3b0993496f8f8c89b
-u
-Esrc/academy/devdojo/maratonajava/javacore/ZZA/OuterClassesTest01.java,9\8\980b87b2cec73eee1873423a20b46a9faf4d5fd3

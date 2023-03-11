@@ -20,7 +20,6 @@ public class MangaRepository {
         return findBy(i -> i.getTitle().equals(title));
     }
 
-
     public static Optional<Manga> findBy(Predicate<Manga> predicate){
         Manga found = null;
         for (Manga manga : mangas) {

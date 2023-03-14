@@ -35,7 +35,7 @@ public class LightNovel {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         LightNovel that = (LightNovel) o;
-        return Objects.equals(title, that.title);
+        return title.equals(that.title);
     }
 
     @Override

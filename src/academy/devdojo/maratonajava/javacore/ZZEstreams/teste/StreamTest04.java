@@ -3,9 +3,8 @@ package academy.devdojo.maratonajava.javacore.ZZEstreams.teste;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.stream.Stream;
 
-public class StreamsTest04 {
+public class StreamTest04 {
     public static void main(String[] args) {
         List<List<String>> devdojo = new ArrayList<>();
         List<String> graphicDesigners = List.of("Wildnei Suane", "Catarina Santos", "Sandy Carolina");
@@ -23,8 +22,6 @@ public class StreamsTest04 {
         System.out.println("---------------------------------");
         devdojo.stream()
                 .flatMap(Collection::stream).forEach(System.out::println);
-
-        Stream<Stream<String>> streamStream = devdojo.stream().map(l -> l.stream());
 
     }
 }

@@ -213,6 +213,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 207. Streams pt 05 - FlatMap pt 02
 208. Streams pt 06 - Finding and Matching
 209. Streams pt 07 - Reduce pt 01
+210. Streams pt 08 - Reduce pt 02
 
 
 

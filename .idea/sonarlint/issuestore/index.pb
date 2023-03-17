@@ -104,10 +104,8 @@ Msrc/academy/devdojo/maratonajava/javacore/ZZDoption/teste/OptionalTest01.java,
 }
 Msrc/academy/devdojo/maratonajava/javacore/ZZDoption/teste/OptionalTest02.java,c\9\c9412e33bfed70043b68d97742df708a2755514b
 |
-Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest01.java,d\3\d323c0902966af17f274f0ae566c0056898d22b9
-|
-Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest02.java,d\d\dd07b2e9d0dfddb21d4568f03d887b9cac7ecf8f
-|
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/LightNovel.java,a\c\ac5331f16da82b268d04adea54b0135e07cec63b
+8
+file.txt,5\4\5436437fa01a7d3e41d46741da54b451446774ca
 |
-Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest06.java,2\9\29c5aa2f6500b2fdac403a98885a7e2cb109b1d1
+Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest09.java,c\7\c7c9fea64b3b71eab6745bb5ed65f00f9a842378

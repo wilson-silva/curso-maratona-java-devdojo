@@ -1,6 +1,5 @@
 package academy.devdojo.maratonajava.javacore.ZZEstreams.teste;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Stream;
@@ -28,6 +27,7 @@ public class StreamTest10 {
         ThreadLocalRandom random = ThreadLocalRandom.current();
         Stream.generate(() -> random.nextInt(1, 60))
                 .limit(6)
+                .distinct()
                 .sorted()
                 .forEach(a -> System.out.print(a + " "));
     }

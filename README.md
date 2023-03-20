@@ -218,6 +218,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 212. Streams pt 10 - Gerando streams pt 02
 213. Streams pt 11 - Collectors pt 01 Summarizing
 214. Streams pt 12 - Collectors pt 02 - Grouping by pt 01
+215. Streams pt 13 - Collectors pt 03 - Grouping by pt 02
 
 
 

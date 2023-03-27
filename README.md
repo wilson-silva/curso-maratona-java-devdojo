@@ -225,6 +225,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 219. Streams pt 17 - Parallel Streams pt 02
 220. Threads pt 01 - Introduction
 221. Threads pt 02 - Estados das threads
+222. Threads pt 03 - Prioridade e Sleep
 
 
 

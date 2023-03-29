@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.ZZFthreads;
+package academy.devdojo.maratonajava.javacore.ZZFthreads.teste;
 
 class ThreadExample extends Thread {
     private final char c;

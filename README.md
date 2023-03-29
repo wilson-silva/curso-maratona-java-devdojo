@@ -227,6 +227,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 221. Threads pt 02 - Estados das threads
 222. Threads pt 03 - Prioridade e Sleep
 223. Threads pt 04 - Yield e Join
+224. Threads pt 05 - Sincronismo de thread pt 01
 
 
 

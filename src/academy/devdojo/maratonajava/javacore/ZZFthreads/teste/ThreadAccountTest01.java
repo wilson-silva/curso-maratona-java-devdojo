@@ -24,7 +24,7 @@ public class ThreadAccountTest01 implements Runnable {
         }
     }
 
-    private void withdrawal(int amount) {
+    private synchronized void withdrawal(int amount) {
         if (account.getBalance() >= amount) {
             System.out.println(getThreadName() + " está indo sacar dinheiro");
             account.withdrawal(amount);

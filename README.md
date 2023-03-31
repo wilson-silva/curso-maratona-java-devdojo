@@ -229,6 +229,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 223. Threads pt 04 - Yield e Join
 224. Threads pt 05 - Sincronismo de thread pt 01
 225. Threads pt 06 - Sincronismo de thread pt 02
+226. Threads pt 07 - Sincronismo de thread pt 03 - Classes thread safe
 
 
 

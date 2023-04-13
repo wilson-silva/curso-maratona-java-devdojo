@@ -231,6 +231,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 225. Threads pt 06 - Sincronismo de thread pt 02
 226. Threads pt 07 - Sincronismo de thread pt 03 - Classes thread safe
 227. Threads pt 08 - Sincronismo de thread pt 04 - Deadlock
+228. Threads pt 09 - Sincronismo de thread pt 05 - Wait, notify e notifyAll
 
 
 

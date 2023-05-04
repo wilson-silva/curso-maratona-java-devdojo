@@ -233,6 +233,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 227. Threads pt 08 - Sincronismo de thread pt 04 - Deadlock
 228. Threads pt 09 - Sincronismo de thread pt 05 - Wait, notify e notifyAll
 229. Concorrência pt 01 - AtomicInteger
+230. Concorrência pt 02 - Lock and ReentrantLock
 
 
 

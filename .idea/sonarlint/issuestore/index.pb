@@ -161,11 +161,5 @@ Psrc/academy/devdojo/maratonajava/javacore/ZZFthreads/teste/ThreadSafeTest01.jav
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest09.java,c\7\c7c9fea64b3b71eab6745bb5ed65f00f9a842378
 ~
 Nsrc/academy/devdojo/maratonajava/javacore/ZZFthreads/teste/DeadLockTest01.java,c\2\c2d9b55cb336472c0e1d04d0f2ced57e02cd8da6
-ƒ
-Ssrc/academy/devdojo/maratonajava/javacore/ZZFthreads/teste/EmailDeliveryTest01.java,b\c\bc95ec577e7d188c36701d379f20d7dae40f2b08
 y
 Isrc/academy/devdojo/maratonajava/javacore/ZZFthreads/dominio/Members.java,2\5\2517a2559e4556d5f619011c21913b375ec2f3d5
-†
-Vsrc/academy/devdojo/maratonajava/javacore/ZZFthreads/service/EmailDeliveryService.java,2\6\26269d6d29e5f95f32dc189fbb4396a84ef5c85c
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

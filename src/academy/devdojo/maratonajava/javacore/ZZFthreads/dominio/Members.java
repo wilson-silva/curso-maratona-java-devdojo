@@ -31,22 +31,19 @@ public class Members {
         synchronized (this.emails) {
             while (this.emails.isEmpty()) {
                 if (!open) return null;
-                System.out.println(Thread.currentThread().getName() + " Não tem email disponivel na lista, entrando em " +
-                        "modo de espera");
+                System.out.println(Thread.currentThread().getName() + " Não tem email disponivel na lista, " +
+                        "entrando em " + "modo de espera");
                 this.emails.wait();
             }
             return this.emails.poll();
         }
     }
 
-    public void close(){
-        open  = false;
-        synchronized (this.emails){
-            System.out.println(Thread.currentThread().getName() + " Notificando todo mundo que não estamos mais pegando emails");
+    public void close() {
+        open = false;
+        synchronized (this.emails) {
+            System.out.println(Thread.currentThread().getName() + " Notificando todo mundo que não estamos mais " +
+                    "pegando emails");
         }
     }
-
-
-
-
 }

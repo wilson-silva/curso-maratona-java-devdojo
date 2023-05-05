@@ -145,3 +145,7 @@ replay_pid*
 /.sonar/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij,sonar
+
+# Created by https://www.toptal.com/developers/gitignore/api/sonar
+# Edit at https://www.toptal.com/developers/gitignore?templates=sonar
+

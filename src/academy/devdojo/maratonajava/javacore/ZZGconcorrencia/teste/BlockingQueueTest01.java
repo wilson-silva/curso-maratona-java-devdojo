@@ -20,7 +20,7 @@ public class BlockingQueueTest01 {
 
     }
 
-    static class RemoveFromQueue implements Runnable{
+    static class RemoveFromQueue implements Runnable {
         private final BlockingQueue<String> bq;
 
         RemoveFromQueue(BlockingQueue<String> bq) {

@@ -161,3 +161,7 @@ Psrc/academy/devdojo/maratonajava/javacore/ZZFthreads/teste/ThreadSafeTest01.jav
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest09.java,c\7\c7c9fea64b3b71eab6745bb5ed65f00f9a842378
 ~
 Nsrc/academy/devdojo/maratonajava/javacore/ZZFthreads/teste/DeadLockTest01.java,c\2\c2d9b55cb336472c0e1d04d0f2ced57e02cd8da6
+‘
+asrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/ReentrantReadWriteLockTest01.java,a\4\a4df6771a88a6283880b78e33ab303978b92edee
+†
+Vsrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CopyOnWriteTest01.java,3\4\34f8fd402734fdf4852df032ce7f6c2f5f272d09

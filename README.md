@@ -238,6 +238,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 232. Concorrência pt 04 - ReentrantReadWriteLock
 233. Concorrência pt 05 - CopyOnWriteArrayList
 234. Concorrência pt 06 - ArrayBlockingQueue
+235. Concorrência pt 07 - LinkedTransferQueue
 
 
 

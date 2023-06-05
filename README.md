@@ -239,6 +239,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 233. Concorrência pt 05 - CopyOnWriteArrayList
 234. Concorrência pt 06 - ArrayBlockingQueue
 235. Concorrência pt 07 - LinkedTransferQueue
+236. Concorrência pt 08 - Executors pt 01 - Thread Pools
+237. Concorrência pt 09 - Executors pt 02 - ScheduledExecutorService
 
 
 

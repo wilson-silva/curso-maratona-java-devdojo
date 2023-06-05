@@ -241,6 +241,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 235. Concorrência pt 07 - LinkedTransferQueue
 236. Concorrência pt 08 - Executors pt 01 - Thread Pools
 237. Concorrência pt 09 - Executors pt 02 - ScheduledExecutorService
+238. Concorrência pt 10 - Executors pt 03 - Interface Callable
+239. Concorrência pt 11 - Executors pt 04 - Future
 
 
 

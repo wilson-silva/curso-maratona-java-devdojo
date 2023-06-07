@@ -244,6 +244,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 238. Concorrência pt 10 - Executors pt 03 - Interface Callable
 239. Concorrência pt 11 - Executors pt 04 - Future
 240. Concorrência pt 12 - CompletableFuture pt 01 - get and join
+241. Concorrência pt 13 - CompletableFuture pt 02 - Streams
+242. Concorrência pt 14 - CompletableFuture pt 03 - ThreadFactory
 
 
 

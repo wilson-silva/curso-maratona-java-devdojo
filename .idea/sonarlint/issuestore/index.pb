@@ -187,3 +187,13 @@ Xsrc/academy/devdojo/maratonajava/javacore/Sformatacao/teste/DateTimeFormatterTe
 ^src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/ScheduledThreadPoolTest01.java,9\a\9a8985a3727e3da3a1150ae16a07d924b3fc3a0d
 É
 Ssrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CallableTest01.java,b\9\b9353e853b8d082c49aa537ebf6b99da99aca9d3
+Å
+Qsrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/FututeTest01.java,c\4\c431c1ef2a9ff0642f861980cdd87c63f51228e8
+å
+\src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest01.java,d\9\d91dc4a225bf784a0e0062742b051809415ad575
+É
+Ssrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/service/StoreService.java,3\2\3265494588025bc7137aa99ed2536608f131ed80
+å
+\src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest02.java,0\5\05502cbfdbb99650f6daaa083a44c1116437c516
+ç
+]src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/service/StoreServiceDeprecated.java,0\7\075bb951e38d2412d1b26af1e8a5610d9f2fa308

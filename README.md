@@ -247,6 +247,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 241. Concorrência pt 13 - CompletableFuture pt 02 - Streams
 242. Concorrência pt 14 - CompletableFuture pt 03 - ThreadFactory
 243. Concorrência pt 15 - CompletableFuture pt 04 - Encadeando chamadas pt 01
+244. Concorrência pt 16 - CompletableFuture pt 05 - Encadeando
 
 
 

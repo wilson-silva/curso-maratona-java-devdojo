@@ -197,3 +197,13 @@ Ssrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/service/StoreService.
 \src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest02.java,0\5\05502cbfdbb99650f6daaa083a44c1116437c516
 ç
 ]src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/service/StoreServiceDeprecated.java,0\7\075bb951e38d2412d1b26af1e8a5610d9f2fa308
+
+Osrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/dominio/Discount.java,6\0\60aee58b62449aada155a9ae7bdca0e43c4d8ab8
+å
+\src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest03.java,5\8\58f802f9729400aa8862000313663b2a005391c3
+|
+Lsrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/dominio/Quote.java,0\c\0cbf91259bf1d26ee77283830b19f7c12c8c400b
+å
+\src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest04.java,1\9\1976908b35da8c89aeb582aafb504021e7b7f36a
+å
+\src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest05.java,9\3\935e9b92ccc657662e97f8c54b188355b94a61ad

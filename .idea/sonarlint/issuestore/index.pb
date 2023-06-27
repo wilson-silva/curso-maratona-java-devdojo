@@ -102,8 +102,6 @@ Msrc/academy/devdojo/maratonajava/javacore/ZZDoption/teste/OptionalTest02.java,
 8
 file.txt,5\4\5436437fa01a7d3e41d46741da54b451446774ca
 |
-Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest01.java,d\3\d323c0902966af17f274f0ae566c0056898d22b9
-|
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest02.java,d\d\dd07b2e9d0dfddb21d4568f03d887b9cac7ecf8f
 |
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest03.java,a\4\a46f6dcfec543262e19292def7b78ae2dfe58a39
@@ -115,12 +113,6 @@ Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest05.java,d
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest06.java,2\9\29c5aa2f6500b2fdac403a98885a7e2cb109b1d1
 |
 Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest07.java,a\a\aa514ea878e1f8c559cb8cffc47c5a00e46333e4
-{
-Ksrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/Promotion.java,e\e\eea3823ce4086c71d0d97f5dc2d5d237cfc0b1e7
-z
-Jsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/Category.java,2\c\2c707d75941d497c428aee8804a00face3767976
-|
-Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/LightNovel.java,a\c\ac5331f16da82b268d04adea54b0135e07cec63b
 |
 Lsrc/academy/devdojo/maratonajava/javacore/ZZFthreads/teste/ThreadTest02.java,d\c\dc66e957f4811755c03539d0b16e283d55dbab1c
 |
@@ -207,3 +199,21 @@ Lsrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/dominio/Quote.java,0
 \src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest04.java,1\9\1976908b35da8c89aeb582aafb504021e7b7f36a
 å
 \src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest05.java,9\3\935e9b92ccc657662e97f8c54b188355b94a61ad
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+è
+_src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/service/StoreServiceWithDiscount.java,e\0\e0b5f0e3db46618922376670f6ca43e4c825c326
+å
+\src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest06.java,1\5\1594c5aa09f4fd7890240ee672b244b2dc6d4440
+
+Osrc/academy/devdojo/maratonajava/javacore/Gassociacao/teste/JogadorTeste03.java,1\3\13960d89c7ef3791f3e25809e13eaaf68d017164
+{
+Ksrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/Promotion.java,e\e\eea3823ce4086c71d0d97f5dc2d5d237cfc0b1e7
+z
+Jsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/Category.java,2\c\2c707d75941d497c428aee8804a00face3767976
+|
+Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/dominio/LightNovel.java,a\c\ac5331f16da82b268d04adea54b0135e07cec63b
+|
+Lsrc/academy/devdojo/maratonajava/javacore/ZZEstreams/teste/StreamTest01.java,d\3\d323c0902966af17f274f0ae566c0056898d22b9
+Ä
+Psrc/academy/devdojo/maratonajava/javacore/Gassociacao/teste/AssociacaoTeste.java,0\1\015f0939526e0a605610bd449bf4f24b41dcd983

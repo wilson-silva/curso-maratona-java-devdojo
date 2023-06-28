@@ -1,10 +1,11 @@
-package academy.devdojo.maratonajava.javacore.ZZHpadroesdeprojeto.teste;
+package academy.devdojo.maratonajava.javacore.ZZHpadroesdeprojeto.build.teste;
 
-import academy.devdojo.maratonajava.javacore.ZZHpadroesdeprojeto.dominio.Person;
+import academy.devdojo.maratonajava.javacore.ZZHpadroesdeprojeto.build.dominio.Person;
 
 public class BuilderPatternTest01 {
     public static void main(String[] args) {
-        var person = new Person.PersonBuilder()
+        var person = Person.PersonBuilder
+                .builder()
                 .firstName("Wilson")
                 .lastName("Silva")
                 .username("will")

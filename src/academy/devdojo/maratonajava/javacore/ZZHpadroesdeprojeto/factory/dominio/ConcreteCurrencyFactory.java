@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.javacore.ZZHpadroesdeprojeto.factory.dominio;
 
-public class CurrencyFactory {
+public class ConcreteCurrencyFactory  {
+
     public static Currency newCurrency(Country country) {
         switch (country) {
             case USA:
@@ -9,7 +10,6 @@ public class CurrencyFactory {
                 return new Real();
             default:
                 throw new IllegalArgumentException("No currency found for this  country");
-
         }
     }
 }

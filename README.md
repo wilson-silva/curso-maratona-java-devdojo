@@ -249,6 +249,9 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 243. Concorrência pt 15 - CompletableFuture pt 04 - Encadeando chamadas pt 01
 244. Concorrência pt 16 - CompletableFuture pt 05 - Encadeando
 245. Concorrência pt 17 - CompletableFuture pt 06 - allOf, anyOf
+246. Padrões de Projeto pt 01 - Builder
+247. Padrões de Projeto pt 02 - Factory
+248. Padrões de Projeto pt 03 - Singleton pt 01 - Eager Initialization
 
 
 

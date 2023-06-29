@@ -254,6 +254,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 248. Padrões de Projeto pt 03 - Singleton pt 01 - Eager Initialization
 249. Padrões de Projeto pt 04 - Singleton pt 02 - Lazy Initialization
 250. Padrões de Projeto pt 05 - Singleton pt 03 - Singleton with enumeration
+251. Padrões de Projeto pt 06 - Data Transfer Object
 
 
 

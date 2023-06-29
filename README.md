@@ -259,6 +259,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este repositÃ
 253. JDBC pt 02 - Criando container MySQL
 254. JDBC pt 03 - Instalando Workbench, criando schema e tabelas
 255. JDBC pt 04 - Instalando e adicionando maven ao projeto
+256. JDBC pt 05 - Adicionando dependÃªncia e conectando com banco
 
 
 

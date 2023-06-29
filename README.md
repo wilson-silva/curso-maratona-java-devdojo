@@ -257,6 +257,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 251. Padr√µes de Projeto pt 06 - Data Transfer Object
 252. JDBC pt 01 - Instalando Docker
 253. JDBC pt 02 - Criando container MySQL
+254. JDBC pt 03 - Instalando Workbench, criando schema e tabelas
+255. JDBC pt 04 - Instalando e adicionando maven ao projeto
 
 
 

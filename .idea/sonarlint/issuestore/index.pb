@@ -199,8 +199,6 @@ Lsrc/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/dominio/Quote.java,0
 \src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest04.java,1\9\1976908b35da8c89aeb582aafb504021e7b7f36a
 å
 \src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/teste/CompletableFutureTest05.java,9\3\935e9b92ccc657662e97f8c54b188355b94a61ad
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 è
 _src/academy/devdojo/maratonajava/javacore/ZZGconcorrencia/service/StoreServiceWithDiscount.java,e\0\e0b5f0e3db46618922376670f6ca43e4c825c326
 å

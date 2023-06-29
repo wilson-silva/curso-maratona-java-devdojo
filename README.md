@@ -253,6 +253,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 247. Padrões de Projeto pt 02 - Factory
 248. Padrões de Projeto pt 03 - Singleton pt 01 - Eager Initialization
 249. Padrões de Projeto pt 04 - Singleton pt 02 - Lazy Initialization
+250. Padrões de Projeto pt 05 - Singleton pt 03 - Singleton with enumeration
 
 
 

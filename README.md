@@ -261,10 +261,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este repositÃ
 255. JDBC pt 04 - Instalando e adicionando maven ao projeto
 256. JDBC pt 05 - Adicionando dependÃªncia e conectando com banco
 257. JDBC pt 06 - Inserindo dados com Statement
-<<<<<<< HEAD
 258. JDBC pt 07 - Lombok e Log4J2
-=======
->>>>>>> 3d818a4310995a62feaad1760d7dff21af63153f
+
 
 
 

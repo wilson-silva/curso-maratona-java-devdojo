@@ -11,12 +11,19 @@ public class ConnectionFactoryTest01 {
                 .name("Studio Deen")
                 .build();
 
+        Producer producerToUpdate = Producer.builder()
+                .id(3)
+                .name("Studio Deen")
+                .build();
+
         //ProducerService.save(producer);
 
         //ProducerService.delete(10);
         //ProducerService.delete(3);
 
         //ProducerService.deleteRange(3, 12);
+
+        ProducerService.update(producerToUpdate);
 
 
     }

@@ -263,6 +263,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 257. JDBC pt 06 - Inserindo dados com Statement
 258. JDBC pt 07 - Lombok e Log4J2
 259. JDBC pt 08 - Deletando dados com Statement
+260. JDBC pt 09 - Atualizando dados com Statement
 
 
 

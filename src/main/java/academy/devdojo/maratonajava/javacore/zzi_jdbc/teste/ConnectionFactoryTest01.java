@@ -4,6 +4,8 @@ import academy.devdojo.maratonajava.javacore.zzi_jdbc.dominio.Producer;
 import academy.devdojo.maratonajava.javacore.zzi_jdbc.service.ProducerService;
 import lombok.extern.log4j.Log4j2;
 
+import java.util.List;
+
 @Log4j2
 public class ConnectionFactoryTest01 {
     public static void main(String[] args) {
@@ -23,7 +25,10 @@ public class ConnectionFactoryTest01 {
 
         //ProducerService.deleteRange(3, 12);
 
-        ProducerService.update(producerToUpdate);
+        //ProducerService.update(producerToUpdate);
+
+        List<Producer> producers = ProducerService.findAll();
+        log.info("Producers found '{}'", producers);
 
 
     }

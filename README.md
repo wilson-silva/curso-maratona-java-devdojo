@@ -264,6 +264,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 258. JDBC pt 07 - Lombok e Log4J2
 259. JDBC pt 08 - Deletando dados com Statement
 260. JDBC pt 09 - Atualizando dados com Statement
+261. JDBC pt 10 - Buscando dados com ResultSet pt 01 - findAll
+262.  JDBC pt 11 - Buscando dados com ResultSet pt 02 - findByName
 
 
 

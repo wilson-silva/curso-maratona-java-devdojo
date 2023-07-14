@@ -18,17 +18,20 @@ public class ConnectionFactoryTest01 {
                 .name("Studio Deen")
                 .build();
 
-        //ProducerService.save(producer);
-
-        //ProducerService.delete(10);
-        //ProducerService.delete(3);
-
-        //ProducerService.deleteRange(3, 12);
-
-        //ProducerService.update(producerToUpdate);
+//        ProducerService.save(producer);
+//
+//        ProducerService.delete(10);
+//        ProducerService.delete(3);
+//
+//        ProducerService.deleteRange(3, 12);
+//
+//        ProducerService.update(producerToUpdate);
 
         List<Producer> producers = ProducerService.findAll();
         log.info("Producers found '{}'", producers);
+
+//            List<Producer> producers = ProducerService.findByName("NHK");
+//            log.info("Producers found '{}'", producers);
 
 
     }

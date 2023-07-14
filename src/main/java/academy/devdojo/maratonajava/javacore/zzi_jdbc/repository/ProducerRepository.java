@@ -65,12 +65,18 @@ public class ProducerRepository {
 
     public static List<Producer> findAll() {
         log.info("Finding all producers");
-        String sql = "SELECT id, name FROM anime_store.producer;";
+        return findByName("");
+    }
+    //----------------------------------------------------------------------------------------------------------------
+
+    public static List<Producer> findByName(String name) {
+        log.info("Finding Producer by name");
+        String sql = "SELECT * FROM anime_store.producer WHERE name like '%%%s%%';".formatted(name);
         List<Producer> producers = new ArrayList<>();
         try (Connection connection = ConnectionFactory.getConnection();
              Statement stmt = connection.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
-            while (rs.next()){
+            while (rs.next()) {
                 var producer = Producer
                         .builder()
                         .id(rs.getInt("id"))
@@ -83,4 +89,6 @@ public class ProducerRepository {
         }
         return producers;
     }
+
+
 }

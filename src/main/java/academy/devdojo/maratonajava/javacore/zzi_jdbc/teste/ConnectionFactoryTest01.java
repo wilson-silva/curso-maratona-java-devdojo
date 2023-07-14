@@ -27,11 +27,13 @@ public class ConnectionFactoryTest01 {
 //
 //        ProducerService.update(producerToUpdate);
 
-        List<Producer> producers = ProducerService.findAll();
-        log.info("Producers found '{}'", producers);
+//        List<Producer> producers = ProducerService.findAll();
+//        log.info("Producers found '{}'", producers);
+//
+//        List<Producer> producers2 = ProducerService.findByName("NHK");
+//        log.info("Producers found '{}'", producers2);
 
-//            List<Producer> producers = ProducerService.findByName("NHK");
-//            log.info("Producers found '{}'", producers);
+        ProducerService.showProducerMetaData();
 
 
     }

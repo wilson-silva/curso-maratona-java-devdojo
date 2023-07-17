@@ -19,24 +19,22 @@ public class ConnectionFactoryTest01 {
                 .build();
 
 //        ProducerService.save(producer);
-//
 //        ProducerService.delete(10);
 //        ProducerService.delete(3);
-//
 //        ProducerService.deleteRange(3, 12);
-//
 //        ProducerService.update(producerToUpdate);
-
 //        List<Producer> producers = ProducerService.findAll();
 //        log.info("Producers found '{}'", producers);
-//
 //        List<Producer> producers2 = ProducerService.findByName("NHK");
 //        log.info("Producers found '{}'", producers2);
-
 //        ProducerService.showProducerMetaData();
 //        ProducerService.showDriverMetaData();
+//        ProducerService.showTypeScrollWorking();
+//        List<Producer> deen = ProducerService.findByNameAndUpdateToUpperCase("mad");
+//        List<Producer> producers = ProducerService.findByNameAndInsertWhenNotFound("A-1 pictures");
+//        log.info("Producers found '{}'", producers);
 
-        ProducerService.showTypeScrollWorking();
+         ProducerService.findByNameAndDelete("Bones");
 
 
     }

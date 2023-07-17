@@ -269,6 +269,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 263. JDBC pt 12 - ResultSetMetaData
 264. JDBC pt 13 - DatabaseMetaData
 265. JDBC pt 14 - ResultSet TYPE SCROLL INSENSITIVE
+266. JDBC pt 15 - Atualizando registros com ResultSet
+267. JDBC pt 16 - Inserindo e deletando registros com ResultSet
 
 
 

@@ -33,7 +33,10 @@ public class ConnectionFactoryTest01 {
 //        List<Producer> producers2 = ProducerService.findByName("NHK");
 //        log.info("Producers found '{}'", producers2);
 
-        ProducerService.showProducerMetaData();
+//        ProducerService.showProducerMetaData();
+//        ProducerService.showDriverMetaData();
+
+        ProducerService.showTypeScrollWorking();
 
 
     }

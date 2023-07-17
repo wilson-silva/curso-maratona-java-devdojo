@@ -267,6 +267,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 261. JDBC pt 10 - Buscando dados com ResultSet pt 01 - findAll 
 262. JDBC pt 11 - Buscando dados com ResultSet pt 02 - findByName
 263. JDBC pt 12 - ResultSetMetaData
+264. JDBC pt 13 - DatabaseMetaData
+265. JDBC pt 14 - ResultSet TYPE SCROLL INSENSITIVE
 
 
 

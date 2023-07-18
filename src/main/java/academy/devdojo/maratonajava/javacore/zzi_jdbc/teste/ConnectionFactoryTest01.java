@@ -15,7 +15,7 @@ public class ConnectionFactoryTest01 {
 
         Producer producerToUpdate = Producer.builder()
                 .id(14)
-                .name("Bones")
+                .name("BoNeS")
                 .build();
 
 //        ProducerService.save(producer);
@@ -34,9 +34,10 @@ public class ConnectionFactoryTest01 {
 //        List<Producer> producers = ProducerService.findByNameAndInsertWhenNotFound("A-1 pictures");
 //        log.info("Producers found '{}'", producers);
 //         ProducerService.findByNameAndDelete("Bones");
+//        List<Producer> producers = ProducerService.findByNamePreparedStatement("Bon");
+//        log.info("Producers found '{}'", producers);
 
-        List<Producer> producers = ProducerService.findByNamePreparedStatement("Bon");
-        log.info("Producers found '{}'", producers);
+        ProducerService.updatePreparedStatement(producerToUpdate);
 
 
     }

@@ -13,8 +13,7 @@ import java.util.List;
 public class ProducerRepository {
     public static void save(Producer producer) {
         String sql = "INSERT INTO `anime_store`.`producer` (`name`) VALUES ('%s');".formatted(producer.getName());
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement()) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement()) {
             int rowsAffected = stmt.executeUpdate(sql);
             log.info("Inserted producer '{}' in the database, rows affected '{}'", producer.getName(), rowsAffected);
         } catch (SQLException e) {
@@ -25,8 +24,7 @@ public class ProducerRepository {
 
     public static void deleteRange(int start, int end) {
         String sql = "DELETE FROM `anime_store`.`producer` WHERE `id` >= %d AND `id` <= %d;".formatted(start, end);
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement()) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement()) {
             int rowsAffected = stmt.executeUpdate(sql);
             log.info("Deleted producer '{}' to '{}' from the database, rows affected '{}'", start, end, rowsAffected);
         } catch (SQLException e) {
@@ -37,8 +35,7 @@ public class ProducerRepository {
 
     public static void delete(int id) {
         String sql = "DELETE FROM `anime_store`.`producer` WHERE (`id` = %d);".formatted(id);
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement()) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement()) {
             int rowsAffected = stmt.executeUpdate(sql);
             log.info("Deleted producer '{}' from the database, rows affected '{}'", id, rowsAffected);
         } catch (SQLException e) {
@@ -48,15 +45,31 @@ public class ProducerRepository {
 
     //----------------------------------------------------------------------------------------------------------------
     public static void update(Producer producer) {
-        String sql = "UPDATE `anime_store`.`producer` SET `name` = ('%s') WHERE (`id` = %d);"
-                .formatted(producer.getName(), producer.getId());
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement()) {
+        String sql = "UPDATE `anime_store`.`producer` SET `name` = ('%s') WHERE (`id` = %d);".formatted(producer.getName(), producer.getId());
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement()) {
             int rowsAffected = stmt.executeUpdate(sql);
             log.info("Updated producer '{}', rows affected '{}'", producer.getId(), rowsAffected);
         } catch (SQLException e) {
             log.error("Error while trying to update producer '{}'", producer.getId(), e);
         }
+    }
+
+    public static void updatePreparedStatement(Producer producer) {
+        try (Connection conn = ConnectionFactory.getConnection();
+             var ps = preparedStatementUpdate(conn, producer)) {
+             var rowsAffected = ps.executeUpdate();
+             log.info("Updated producer '{}', rows affected '{}'", producer.getId(), rowsAffected);
+        } catch (SQLException e) {
+            log.error("Error while trying to update producer '{}'", producer.getId(), e);
+        }
+    }
+
+    private static PreparedStatement preparedStatementUpdate(Connection conn, Producer producer) throws SQLException {
+        String sql = "UPDATE `anime_store`.`producer` SET `name` = ? WHERE (`id` = ?);";
+        PreparedStatement ps = conn.prepareStatement(sql);
+        ps.setString(1, producer.getName());
+        ps.setInt(2, producer.getId());
+        return ps;
     }
     //----------------------------------------------------------------------------------------------------------------
 
@@ -70,15 +83,9 @@ public class ProducerRepository {
         log.info("Finding Producer by name");
         String sql = "SELECT * FROM anime_store.producer WHERE name like '%%%s%%';".formatted(name);
         List<Producer> producers = new ArrayList<>();
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement(); ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
-                var producer = Producer
-                        .builder()
-                        .id(rs.getInt("id"))
-                        .name(rs.getString("name"))
-                        .build();
+                var producer = Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build();
                 producers.add(producer);
             }
         } catch (SQLException e) {
@@ -86,21 +93,13 @@ public class ProducerRepository {
         }
         return producers;
     }
-    //----------------------------------------------------------------------------------------------------------------
 
     public static List<Producer> findByNamePreparedStatement(String name) {
         log.info("Finding Producer by name");
-        String sql = "SELECT * FROM anime_store.producer WHERE name like ?;";
         List<Producer> producers = new ArrayList<>();
-        try (Connection conn = ConnectionFactory.getConnection();
-             PreparedStatement ps = createdPreparedStatement(conn, sql, name);
-             ResultSet rs = ps.executeQuery()) {
+        try (Connection conn = ConnectionFactory.getConnection(); PreparedStatement ps = preparedStatementFindByName(conn, name); ResultSet rs = ps.executeQuery()) {
             while (rs.next()) {
-                var producer = Producer
-                        .builder()
-                        .id(rs.getInt("id"))
-                        .name(rs.getString("name"))
-                        .build();
+                var producer = Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build();
                 producers.add(producer);
             }
         } catch (SQLException e) {
@@ -109,9 +108,10 @@ public class ProducerRepository {
         return producers;
     }
 
-    private static PreparedStatement createdPreparedStatement(Connection conn, String sql, String name) throws SQLException {
+    private static PreparedStatement preparedStatementFindByName(Connection conn, String name) throws SQLException {
+        String sql = "SELECT * FROM anime_store.producer WHERE name like ?;";
         PreparedStatement ps = conn.prepareStatement(sql);
-        ps.setString(1, "%" +  name + "%");
+        ps.setString(1, String.format("%%%s%%", name));
         return ps;
     }
     //----------------------------------------------------------------------------------------------------------------
@@ -119,9 +119,7 @@ public class ProducerRepository {
     public static void showProducerMetaData() {
         log.info("Showing Producer Metadata");
         String sql = "SELECT * FROM anime_store.producer;";
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement(); ResultSet rs = stmt.executeQuery(sql)) {
             ResultSetMetaData rsMetaData = rs.getMetaData();
             int columnCount = rsMetaData.getColumnCount();
             log.info("Columns count '{}'", columnCount);
@@ -132,8 +130,7 @@ public class ProducerRepository {
                 log.info("Column type '{}'", rsMetaData.getColumnTypeName(i));
             }
 
-        } catch (
-                SQLException e) {
+        } catch (SQLException e) {
             log.error("Error while trying to find all producers", e);
         }
     }
@@ -161,8 +158,7 @@ public class ProducerRepository {
                     log.info("And Supports CONCUR_UPDATABLE");
                 }
             }
-        } catch (
-                SQLException e) {
+        } catch (SQLException e) {
             log.error("Error while trying to find all producers", e);
         }
     }
@@ -171,9 +167,7 @@ public class ProducerRepository {
     public static void showTypeScrollWorking() {
         log.info("Finding Producer by name");
         String sql = "SELECT * FROM anime_store.producer order by name desc;";
-        try (Connection conn = ConnectionFactory.getConnection();
-             var stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-             var rs = stmt.executeQuery(sql)) {
+        try (Connection conn = ConnectionFactory.getConnection(); var stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE); var rs = stmt.executeQuery(sql)) {
             log.info("Last row? '{}'", rs.last());
             log.info("Row number '{}'", rs.getRow());
             log.info(Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build());
@@ -201,10 +195,7 @@ public class ProducerRepository {
             rs.next();
             log.info("After last row? '{}'", rs.isAfterLast());
             while (rs.previous()) {
-                log.info(Producer.builder()
-                        .id(rs.getInt("id"))
-                        .name(rs.getString("name"))
-                        .build());
+                log.info(Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build());
             }
 
         } catch (SQLException e) {
@@ -217,18 +208,12 @@ public class ProducerRepository {
         log.info("Finding Producer by name");
         String sql = "SELECT * FROM anime_store.producer WHERE name like '%%%s%%';".formatted(name);
         List<Producer> producers = new ArrayList<>();
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-             ResultSet rs = stmt.executeQuery(sql)) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE); ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
                 rs.updateString("name", rs.getString("name").toUpperCase());
                 rs.cancelRowUpdates();
                 rs.updateRow();
-                var producer = Producer
-                        .builder()
-                        .id(rs.getInt("id"))
-                        .name(rs.getString("name"))
-                        .build();
+                var producer = Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build();
                 producers.add(producer);
             }
         } catch (SQLException e) {
@@ -242,9 +227,7 @@ public class ProducerRepository {
         log.info("Finding Producer by name");
         String sql = "SELECT * FROM anime_store.producer WHERE name like '%%%s%%';".formatted(name);
         List<Producer> producers = new ArrayList<>();
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-             ResultSet rs = stmt.executeQuery(sql)) {
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE); ResultSet rs = stmt.executeQuery(sql)) {
             if (rs.next()) return producers;
             insertNewProducer(name, rs);
             producers.add(getProducer(rs));
@@ -258,13 +241,11 @@ public class ProducerRepository {
     public static void findByNameAndDelete(String name) {
         log.info("Finding Producer by name");
         String sql = "SELECT * FROM anime_store.producer WHERE name like '%%%s%%';".formatted(name);
-        try (Connection connection = ConnectionFactory.getConnection();
-             Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-             ResultSet rs = stmt.executeQuery(sql)) {
-          while (rs.next()){
-              log.info("Deleting '{}'", rs.getString("name"));
-              rs.deleteRow();
-          }
+        try (Connection connection = ConnectionFactory.getConnection(); Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE); ResultSet rs = stmt.executeQuery(sql)) {
+            while (rs.next()) {
+                log.info("Deleting '{}'", rs.getString("name"));
+                rs.deleteRow();
+            }
         } catch (SQLException e) {
             log.error("Error while trying to find all producers", e);
         }

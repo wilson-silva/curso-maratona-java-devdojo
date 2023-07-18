@@ -272,6 +272,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 266. JDBC pt 15 - Atualizando registros com ResultSet
 267. JDBC pt 16 - Inserindo e deletando registros com ResultSet
 268. JDBC pt 17 - PreparedStatement pt 01
+269. JDBC pt 18 - PreparedStatement pt 02
 
 
 

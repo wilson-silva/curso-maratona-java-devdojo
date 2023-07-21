@@ -97,9 +97,14 @@ public class ProducerRepository {
     public static List<Producer> findByNamePreparedStatement(String name) {
         log.info("Finding Producer by name");
         List<Producer> producers = new ArrayList<>();
-        try (Connection conn = ConnectionFactory.getConnection(); PreparedStatement ps = preparedStatementFindByName(conn, name); ResultSet rs = ps.executeQuery()) {
+        try (Connection conn = ConnectionFactory.getConnection();
+             PreparedStatement ps = preparedStatementFindByName(conn, name);
+             ResultSet rs = ps.executeQuery()) {
             while (rs.next()) {
-                var producer = Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build();
+                var producer = Producer.builder()
+                        .id(rs.getInt("id"))
+                        .name(rs.getString("name"))
+                        .build();
                 producers.add(producer);
             }
         } catch (SQLException e) {

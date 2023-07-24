@@ -275,6 +275,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 269. JDBC pt 18 - PreparedStatement pt 02
 270. JDBC pt 19 - CallableStatement
 271. JDBC pt 20 - Connected RowSet - JdbcRowSet pt 01
+272. JDBC pt 21 - Connected RowSet - JdbcRowSet pt 02
 
 
 

@@ -10,15 +10,13 @@ import java.util.List;
 public class ConnectionFactoryTest02 {
     public static void main(String[] args) {
 
-        Producer producerToUpdate = Producer.builder().id(1).name("madhouse").build();
+        Producer producerToUpdate = Producer.builder().id(1).name("MADHOUSE2").build();
+//        ProducerServiceRowSet.updateJdbcRowSet(producerToUpdate);
+        ProducerServiceRowSet.updateCachedRowSet(producerToUpdate);
 
-        ProducerServiceRowSet.updateJdbcRowSet(producerToUpdate);
-
-        log.info("-------------------------------------");
-
-        List<Producer> producers = ProducerServiceRowSet.findByNameJdbcRowSet("");
-        log.info(producers);
-
+//        log.info("-------------------------------------");
+//        List<Producer> producers = ProducerServiceRowSet.findByNameJdbcRowSet("");
+//        log.info(producers);
 
 
     }

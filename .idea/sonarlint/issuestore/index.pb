@@ -11,3 +11,9 @@ _
 pasta/aluno.ser,d\9\d9a8102186bc8e8888c8fd37f56eb50a13c1a350
 8
 file.txt,5\4\5436437fa01a7d3e41d46741da54b451446774ca
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/repository/ProducerRepository.java,f\8\f8adcb757be52e0fddef3526d3b4244d2d688cc4
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest01.java,f\f\fff9ec5239f1b9a08098ff369f8453c5d266975c
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/listener/CustomRowSetListener.java,5\4\5441afe669ad0ee9ba227f0291b80a1440dc689c

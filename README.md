@@ -278,7 +278,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 272. JDBC pt 21 - Connected RowSet - JdbcRowSet pt 02
 273. JDBC pt 22 - Disconnected RowSet - CachedRowSet
 274. JDBC pt 23 - Transação
-
+275. JDBC pt 24 - CRUD pt 01 - findByName and findAll
 
 
 

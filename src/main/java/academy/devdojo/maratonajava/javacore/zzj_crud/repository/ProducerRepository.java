@@ -42,5 +42,23 @@ public class ProducerRepository {
     }
     //----------------------------------------------------------------------------------------------------------------
 
+    public static void delete(int id) {
+        try (Connection conn = ConnectionFactory.getConnection();
+             PreparedStatement ps = createpreparedStatementDelete(conn, id)) {
+            ps.execute();
+            log.info("Deleted producer '{}' from the database", id);
+        } catch (SQLException e) {
+            log.error("Error while trying to delete producer '{}'", id, e);
+        }
+    }
+
+    private static PreparedStatement createpreparedStatementDelete(Connection conn, Integer id) throws SQLException {
+        String sql = "DELETE FROM `anime_store`.`producer` WHERE (`id` = ?);";
+        PreparedStatement ps = conn.prepareStatement(sql);
+        ps.setInt(1, id);
+        return ps;
+    }
+    //----------------------------------------------------------------------------------------------------------------
+
 
 }

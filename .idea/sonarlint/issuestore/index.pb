@@ -17,3 +17,17 @@ _src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/listener/CustomRow
 _src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/service/ProducerServiceRowSet.java,2\1\219ae7f22425caf93dcd96f54e8b269c043cf3cb
 ï
 esrc/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/repository/ProducerRepositoryRowSet.java,b\2\b237e8e976c42fabd4f3b61d8cdf42d52d2c0c3d
+à
+Xsrc/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/conn/ConnectionFactory.java,5\8\589a79e5c8cc669b0e060857c1eaefa85971af13
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest01.java,f\f\fff9ec5239f1b9a08098ff369f8453c5d266975c
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest02.java,4\5\45d7ccf74bd27d81d8353144c2fe21b69629fb5d
+à
+Xsrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/conn/ConnectionFactory.java,3\7\3754d42910bff6a40856984ac2ade73f46c35442
+
+Osrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/dominio/Anime.java,b\0\b0ac293e20d801d525bf37800a12d555ac6c300d
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest03.java,a\f\af166d579e7cb9ac762213f294211e1272c12f01
+â
+Ysrc/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/service/ProducerService.java,4\c\4c420e1870f1d187d9b269cfda67f6f4075bee6f

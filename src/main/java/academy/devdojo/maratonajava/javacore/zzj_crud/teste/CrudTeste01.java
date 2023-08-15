@@ -22,5 +22,6 @@ public class CrudTeste01 {
         System.out.println("0. Exit");
         System.out.println("1. Search for producer");
         System.out.println("2. Delete producer");
+        System.out.println("3. Save producer");
     }
 }

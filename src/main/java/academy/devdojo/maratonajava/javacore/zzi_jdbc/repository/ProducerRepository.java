@@ -39,7 +39,8 @@ public class ProducerRepository {
             try(PreparedStatement ps = conn.prepareStatement(sql)){
                 log.info("Saving producer '{}'", p.getName());
                 ps.setString(1, p.getName());
-                if(p.getName().equals("White Fox")) throw new SQLException("Can´t save white fox");
+                /* Ao habilitar o if faz a simulação de erro fazendo o rollbacl e não salvando nenhum dados no banco*/
+                //if(p.getName().equals("White Fox")) throw new SQLException("Can´t save white fox");
                 ps.execute();
             }catch (SQLException e){
                 e.printStackTrace();

@@ -281,6 +281,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 275. JDBC pt 24 - CRUD pt 01 - findByName and findAll
 276. JDBC pt 25 - CRUD pt 02 - delete
 277. JDBC pt 26 - CRUD pt 03 - save
+278. JDBC pt 27 - CRUD pt 04 - update
 
 
 

@@ -25,5 +25,7 @@ _src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFa
 _src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest02.java,4\5\45d7ccf74bd27d81d8353144c2fe21b69629fb5d
 à
 Xsrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/conn/ConnectionFactory.java,3\7\3754d42910bff6a40856984ac2ade73f46c35442
-
-Osrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/dominio/Anime.java,b\0\b0ac293e20d801d525bf37800a12d555ac6c300d
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest03.java,a\f\af166d579e7cb9ac762213f294211e1272c12f01
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/repository/ProducerRepository.java,f\8\f8adcb757be52e0fddef3526d3b4244d2d688cc4

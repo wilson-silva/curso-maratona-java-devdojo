@@ -282,6 +282,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 276. JDBC pt 25 - CRUD pt 02 - delete
 277. JDBC pt 26 - CRUD pt 03 - save
 278. JDBC pt 27 - CRUD pt 04 - update
+279. JDBC pt 28 - CRUD pt 05 - Anime Crud
 
 
 

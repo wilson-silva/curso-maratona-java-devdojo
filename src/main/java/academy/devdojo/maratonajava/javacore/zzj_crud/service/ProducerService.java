@@ -16,7 +16,7 @@ public class ProducerService {
             case 2 -> delete();
             case 3 -> save();
             case 4 -> update();
-            default -> throw new IllegalArgumentException("Not a valid option");
+            //default -> throw new IllegalArgumentException("Not a valid option");
         }
     }
 
@@ -56,7 +56,6 @@ public class ProducerService {
         System.out.println("Type the new or enter to keep the same");
         String name = SCANNER.nextLine();
         name = name.isEmpty() ? producerFromDb.getName() : name;
-
         Producer producerToUpdate = Producer.builder()
                 .id(producerFromDb.getId())
                 .name(name)
@@ -64,5 +63,14 @@ public class ProducerService {
 
         ProducerRepository.update(producerToUpdate);
     }
+
+    public static boolean findById(Integer id) {
+       if(ProducerRepository.findById(id).isEmpty()){
+           System.out.println("Id not found!");
+           return false;
+       }
+       return true;
+    }
+
 
 }

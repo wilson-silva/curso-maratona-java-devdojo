@@ -29,3 +29,15 @@ Xsrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/conn/ConnectionFac
 _src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/teste/ConnectionFactoryTest03.java,a\f\af166d579e7cb9ac762213f294211e1272c12f01
 è
 _src/main/java/academy/devdojo/maratonajava/javacore/zzi_jdbc/repository/ProducerRepository.java,f\8\f8adcb757be52e0fddef3526d3b4244d2d688cc4
+â
+Ysrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/service/ProducerService.java,7\e\7e3b22dd4d49afc39b1def8c6c9a8aa53fcb6163
+è
+_src/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/repository/ProducerRepository.java,0\c\0c41feb56a700a2f343b710936ba9a6601bcdc46
+å
+\src/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/repository/AnimeRepository.java,2\4\249de3b9e80867f3f3e4d1aaa835ed9c7ce477cc
+É
+Ssrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/teste/CrudTeste01.java,e\b\eb489bc325e527a67359a27dff09b14de386579f
+Ü
+Vsrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/service/AnimeService.java,3\9\39fb38e0bb85c67840373309856105500c5030f7
+á
+Wsrc/main/java/academy/devdojo/maratonajava/javacore/zze_streams/teste/StreamTest08.java,3\8\3857b597ce4c3a7d0e9a08845506a349fc0d6dae

@@ -284,6 +284,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 278. JDBC pt 27 - CRUD pt 04 - update
 279. JDBC pt 28 - CRUD pt 05 - Anime Crud
 280. Testes unitários com jUnit pt 01
+281. Testes unitários com jUnit pt 02
 
 
 

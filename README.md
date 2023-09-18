@@ -287,6 +287,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit√
 281. Testes unit√°rios com jUnit pt 02
 282. Atualizando JDK
 283. Record Class
+284. Pattern Matching for instanceof
 
 
 

@@ -288,6 +288,7 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 282. Atualizando JDK
 283. Record Class
 284. Pattern Matching for instanceof
+285. É só correr pro abraço
 
 
 

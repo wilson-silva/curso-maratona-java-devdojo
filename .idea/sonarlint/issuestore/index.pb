@@ -41,3 +41,9 @@ Ssrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/teste/CrudTeste01.
 Vsrc/main/java/academy/devdojo/maratonajava/javacore/zzj_crud/service/AnimeService.java,3\9\39fb38e0bb85c67840373309856105500c5030f7
 á
 Wsrc/main/java/academy/devdojo/maratonajava/javacore/zze_streams/teste/StreamTest08.java,3\8\3857b597ce4c3a7d0e9a08845506a349fc0d6dae
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Å
+Qsrc/main/java/academy/devdojo/maratonajava/javacore/zzk_junit/dominio/Person.java,e\8\e83b2d74085a807bd439085483a3f0b3403706be
+å
+\src/main/java/academy/devdojo/maratonajava/javacore/zzk_junit/teste/PersonServiceTest01.java,c\3\c3d0bd20e73556a53bbb087f758a8668dded7a17

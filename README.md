@@ -286,6 +286,8 @@ Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este reposit�
 280. Testes unitários com jUnit pt 01
 281. Testes unitários com jUnit pt 02
 282. Atualizando JDK
+283. Record Class
+
 
 
 

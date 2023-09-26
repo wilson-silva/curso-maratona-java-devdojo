@@ -1,8 +1,9 @@
 # curso Maratona Java - DevDojo
 
 Aulas do curso Maratona Java oferecido gratuitamente pela DevDojo, este repositório tem o propósito de se tornar um material para consultas posteriores, conteúdos do básico ao avançando da linguagem Java, totalizando 286 video aulas.
+[Playlist Maratona Java](https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW)
 
-## Aulas Concluídas
+## 💻 Aulas Concluídas
 
 1. O que esperar do curso
 2. Como Java Funciona
